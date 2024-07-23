@@ -1,0 +1,35 @@
+/* Example global styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ATC Arquette, sans-serif !important;
+
+ 
+}
+
+nav.navbar {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  position: relative;
+  /* or `fixed` if you want it to stay on top while scrolling */
+  top: 0;
+}
+
+main {
+  margin-top: 2em;
+  /* Adjust this if using fixed navbar */
+  padding: 1em;
+}
+
+footer.footer {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: relative;
+}
